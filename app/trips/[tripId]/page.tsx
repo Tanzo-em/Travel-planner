@@ -1,3 +1,5 @@
+
+
 import { auth } from "@/auth";
 import TripDetailClient from "@/components/trip-detail";
 import { prisma } from "@/lib/prisma";
