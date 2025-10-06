@@ -139,3 +139,28 @@ export default async function LandingPage() {
     </div>
   );
 }
+
+export const metadata = {
+  title: 'Travel Planner',
+  description: 'Plan your trips easily with Travel Planner.',
+  keywords: ['travel', 'planner', 'trips', 'vacation'],
+  authors: [{ name: 'Rakesh Kumar' }],
+  openGraph: {
+    title: 'Travel Planner',
+    description: 'Plan your trips easily with Travel Planner.',
+    url: 'https://triplanzy.vercel.app',
+    siteName: 'Travel Planner',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  icons: {
+    icon: '/favicon.png',
+  },
+};
